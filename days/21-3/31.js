@@ -21,6 +21,7 @@ const merge = function (num1, num2) {
       j--;
       k--;
     }
+    
     while (j >= 0) {
       res[k] = num2[j];
       k--;
